@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Plug-and-Play Architecture',
+    Svg: require('@site/static/img/undraw_building_re_xfcm.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Designed with a modular architecture, allowing developers to seamlessly manage everything without altering core files.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Powerful CLI Tool',
+    Svg: require('@site/static/img/undraw_mind_map_re_nlb6.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        A CLI that generates routes, controllers, and database configurations, saving time and minimizing manual effort.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Powered by Express',
+    Svg: require('@site/static/img/undraw_open_source_-1-qxw.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Built on <code>Express.js</code> framework, the project leverages Express&apos;s robust routing, middleware*, and performance capabilities.
       </>
     ),
   },

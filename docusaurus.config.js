@@ -8,8 +8,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'The Orion Framework',
+  tagline: 'Express on Steroids: The Ultimate Plug-and-Play Backend Architecture',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -62,9 +62,9 @@ const config = {
     ({
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Orion',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Orion Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -86,34 +86,12 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
                 label: 'Blog',
                 to: '/blog',
@@ -124,14 +102,34 @@ const config = {
               },
             ],
           },
+          {
+            title: 'Meet the Builder',
+            items: [
+              {
+                label: 'Website',
+                href: 'https://mrmehta.in',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/kartikmehta17',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://x.com/kartik_mehta8',
+              },
+            ],
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} The Orion Framework. Built with Docusaurus.`,
       },
       prism: {
-        theme: prismThemes.github,
+        theme: prismThemes.oneDark,
         darkTheme: prismThemes.dracula,
       },
     }),
+    stylesheets: [
+      "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    ],
 };
 
 export default config;
