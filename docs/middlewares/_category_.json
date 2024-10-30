@@ -3,6 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Orion Middleware Guide"
+    "description": "Orion uses various middlewares to handle common tasks like body parsing, CORS, logging, rate-limiting, and security. Each middleware is implemented as a class extending a standard interface to maintain consistency."
   }
 }
