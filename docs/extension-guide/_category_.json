@@ -1,0 +1,8 @@
+{
+  "label": "Extension Guide",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to extend Orion with custom components, such as databases, middlewares, routes, and controllers. Follow this guide to integrate your own functionality seamlessly into the framework."
+  }
+}
