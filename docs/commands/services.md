@@ -24,7 +24,7 @@ A **module** combines a route and a controller into one package. Running this co
 ## Purpose
 The `generate` command helps developers avoid the hassle of manually creating files and registering them. Instead, it automatically generates standardized files with a predefined structure.
 
-Check out the [TODO] section to learn how to create and apply your own controllers and routes.
+Check out the [Create your own endpoint](/docs/extension-guide/module-extension.md) section to learn how to create and apply your own controllers and routes.
 
 ## Output
 
