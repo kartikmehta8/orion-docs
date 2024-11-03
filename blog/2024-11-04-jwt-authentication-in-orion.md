@@ -245,7 +245,7 @@ class AuthMiddleware extends IMiddleware {
   handle(req, res, next) {
     
     // Check if route is protected, if not, skip authentication and it does not starts with /visualize/
-    const routeStartsWithVisualize = req.originalUrl.startsWith('/visualize/');
+    const routeStartsWithVisualize = req.originalUrl.startsWith('/visualize');
     if (req.originalUrl === settings.GENERAL.API_PREFIX + '/login' || req.originalUrl === settings.GENERAL.API_PREFIX + '/signup' || routeStartsWithVisualize ) {
       return next();
     }
