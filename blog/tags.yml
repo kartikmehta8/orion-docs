@@ -2,3 +2,13 @@ welcome:
   label: Welcome
   permalink: /welcome
   description: Welcome Blogs
+
+jwt:
+  label: JWT
+  permalink: /jwt
+  description: Blogs related to JWT
+
+authentication:
+  label: Authentication
+  permalink: /authentication
+  description: Blogs related to Authentication
