@@ -17,7 +17,7 @@ Replace `<db_type>` with the type of database, such as `mongo`, `mysql`, or `red
 ### What’s the purpose of the `generate` command in Orion CLI?
 The `generate` command allows you to create templates for `controllers`, `routes`, or entire `modules`. For instance, to create a user module, you would use:
    ```bash
-   npm run generate module User
+   >>> npm run generate module User
    ```
 This creates boilerplate files for routes and controllers.
 
